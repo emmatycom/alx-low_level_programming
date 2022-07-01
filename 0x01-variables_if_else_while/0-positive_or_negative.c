@@ -6,11 +6,12 @@
  * for numbers > zero, n is positive
  * for numbers < zero, n is negative
  * for numbers == 0 n is zero
- * Return: Always 0 (success) 
+ * Return: Always 0 (success)
  */
 int main(void)
 {
 	int n;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
